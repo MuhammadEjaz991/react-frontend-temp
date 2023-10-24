@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.mainContainer{
+  /* max-width: 2000px; */
+  margin: auto;
+  
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std";
+  src: url(../public/fonts/HelveticaNeue/HelveticaNeueLTStd-Lt.otf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Helvetica Neue LT Std Bold";
+  src: url(../public/fonts/HelveticaNeue/HelveticaNeueLTStd-Bd.otf)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Helvetica Neue LT Std Roman";
+  src: url(../public/fonts/HelveticaNeue/HelveticaNeueLTStd-Roman.otf)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "B612 Mono bd";
+  src: url(../public/fonts/B612/B612-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../public/fonts//Montserrat/static/Montserrat-Bold.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Roboto Serif";
+  src: url(../public/fonts/Roboto_Serif/static/RobotoSerif-Medium.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Roboto Serif Light";
+  src: url(../public/fonts/Roboto_Serif/static/RobotoSerif_120pt-Light.ttf)
+    format("truetype");
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

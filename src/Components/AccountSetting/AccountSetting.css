@@ -1,0 +1,79 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.accountBox{
+    max-width: 700px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    font-weight: normal; /* ya 'normal', 'lighter', 300, 400, etc. */
+    font-style: normal; /* ya 'normal' */
+    line-height: 1.5;
+
+    letter-spacing: 1px;
+
+}
+.savechangesAndCancel{
+    width: 100%;
+    display: flex;
+
+    align-items: flex-end;
+}
+.disableForEdit{
+    margin-top: 0px !important;
+}
+.accountBoxH1{
+    ont-size: 2rem;
+letter-spacing: 3px;
+margin: 10px;
+text-transform: uppercase;
+text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+font-family: Magmawave Caps;
+color: black;
+font-weight: 700;
+}
+.forAccount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+@media (max-width: 1400px) {
+    .accountBox{
+        margin-top: 11px !important;
+
+    }
+    .accountsettingForm{
+        top: 60% !important;
+    }
+    .accountsettingform{
+        padding: 10px 25px 10px 25px !important
+    }
+}
+
+@media (max-width: 500px) {
+    .accountsettingForm{
+        top: 55% !important;
+    }
+    .accountBoxH1{
+        ont-size: 2rem;
+    letter-spacing: 3px;
+    margin: 10px 10px 0px 10px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    font-family: Magmawave Caps;
+    color: black;
+    }
+    .accountBoxP{
+        margin: 0px 10px 0px 10px;
+    }
+    .accountsettingform{
+        padding: 15px 25px 10px 25px !important;
+    }
+}

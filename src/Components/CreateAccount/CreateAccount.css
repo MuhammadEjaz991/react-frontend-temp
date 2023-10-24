@@ -1,0 +1,68 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.forgetSpan{
+    font-size: 7px;
+    margin-right: 10px;
+    cursor:default;
+}
+.createForm{
+    padding: 0px 30px 10px 30px !important;
+}
+.signUPBtn{
+    margin-top: 0px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0.2778vw 0.2778vw 0.2778vw 0px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease !important;
+}
+.signUPBtn:hover {
+    transform: scale(1.03) !important;
+    background-color: #096BDE;
+}
+.createLoginbutton{
+    margin: 0px 20px 20px 20px !important;
+}
+.uploadimageCreate{
+    padding: 0px 0px !important;
+}
+@media (max-width: 1400px) {
+    .signUPBtn{
+        margin-top: 0px !important;
+    }
+    .inputText{
+        margin: 5px 0px 5px 10px !important;
+        height: 35px !important;
+    }
+    .createinputform{
+        top: 50% !important;
+        padding: 10px 0px !important;
+    }
+    .SignUpPara{
+        margin: 5px !important;
+        font-size: 2.6rem !important;
+    }
+    .uploadimageCreate{
+        margin: 10px 0px 10px 10px !important;
+    }
+}
+@media (max-width: 500px) {
+    .signUPBtn{
+        margin-top: 0px !important;
+    }
+    .inputText{
+        margin: 8px 0px 5px 10px !important;
+        height: 35px !important;
+    }
+    .createinputform{
+        top: 48% !important;
+    }
+    .SignUpPara{
+        margin: 10px 5px 5px 5px !important;
+        font-size: 2.6rem !important;
+    }
+    .uploadimageCreate{
+        margin: 10px 0px 10px 10px !important;
+    }
+}

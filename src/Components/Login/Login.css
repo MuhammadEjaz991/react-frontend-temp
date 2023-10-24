@@ -1,0 +1,361 @@
+@charset "utf-8";
+
+/* CSS Document */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: calibri;
+}
+
+/* .RememberPara {
+    width: 9.39vw;
+  
+    height: 1.94vw;
+  
+
+  
+    font-family: "Helvetica Neue LT Std";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.11vw;
+  
+    line-height: 1.67vw;
+  
+
+  
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02vw;
+  
+
+  
+    color: #adadad;
+    margin-left: 1.11vw;
+  } */
+.rememForgetBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* margin-top: 0.28vw; */
+}
+
+.forgetPara {
+    /* width: 8.83vw;
+  
+    height: 1.67vw; */
+    cursor: pointer;
+
+
+
+    font-family: "Helvetica Neue LT Std";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+    /* line-height: 1.67vw; */
+
+
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 1px;
+
+
+
+    color: #adadad;
+    color: white;
+}
+
+.continueEmail {
+    display: flex;
+    align-items: center;
+    /* padding-left: 0.83vw; */
+    margin: 20px 0px;
+}
+
+.line {
+    width: 55px;
+
+    /* height: 0vw; */
+
+    /* C1 */
+
+    border: 0.07vw solid black;
+}
+
+.googleLoginButton {
+    margin-left: 10px;
+    width: 250px;
+
+    height: 45px;
+
+    cursor: pointer;
+    /* border: 1px solid #fd5d5d; */
+    border-radius: 10px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    /* font-size: 16px; */
+
+    /* line-height: 1.67vw; */
+
+    /* or 109% */
+
+    display: flex;
+    align-items: center;
+
+    color: #09090b;
+    margin: 10px 0px;
+    border: none;
+}
+
+.continuePara {
+    width: 215px;
+
+    /* height: 40px; */
+
+    /* Paragrph L */
+
+    font-family: "Helvetica Neue LT Std";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    /* line-height: 1.67vw; */
+
+    /* or 150% */
+
+    text-align: center;
+    /* letter-spacing: -0.02vw; */
+
+    /* C1 */
+
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    ;
+}
+
+.login-container {
+    /* background-image: url('/public/6.jpeg'); */
+    background-image: url('/public/newImage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: calc(100vh - 112px);
+    position: relative;
+}
+
+.login-inputs {
+    padding-top: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    /* background-color: #0066EE; */
+    background-color: #3990FF;
+    ;
+    border-radius: 10px;
+    box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.42);
+}
+
+.login-inputs h1 {
+    /* color: #fff; */
+    font-size: 3rem;
+    letter-spacing: 3px;
+    margin: 10px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    font-family: Magmawave Caps;
+    color: white;
+}
+
+.login-inputs form {
+    width: 100%;
+    /* background-color: #23243c;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2); */
+    border-radius: 10px;
+    padding: 0px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputText {
+    color: black;
+}
+
+.login-inputs form input {
+    margin: 10px 0px 10px 10px;
+    width: 250px;
+    height: 45px;
+    /* background-color:#434459; */
+    border-radius: 5px;
+    border: none;
+    color: #000000;
+    padding: 5px 10px;
+    outline: none;
+    width: 100%;
+}
+
+.login-inputs form input::placeholder {
+    color: #727383;
+}
+
+.login-inputs form button {
+    text-transform: uppercase;
+    width: 210px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 3px;
+    font-weight: 600;
+    background-color: #000000;
+    color: #fff;
+    font-size: 12px;
+    /* font-family: poppins; */
+    letter-spacing: 1px;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.login-inputs form button:hover {
+    transform: scale(1.03) !important;
+    background-color: #096BDE;
+}
+
+.forget {
+    color: white;
+    margin: 0px 20px 20px 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    border-bottom: 1px solid white;
+
+}
+
+.login-inputs form button:hover {
+    /* background-color:#0066EE;
+    color: black; */
+    transition: all ease 0.3s;
+}
+
+.paralogin {
+    padding: 0px 10px;
+    margin-right: auto;
+    color: white;
+}
+.LoginBtns {
+    transition: transform 0.3s ease !important;
+}
+.LoginBtns:hover {
+    transform: scale(1.03) !important;
+    background-color: #096BDE;
+}
+@media only screen and (max-width: 1440px) {
+
+
+    /* padding-right: 10px; */
+    .login-container {
+        min-height: calc(100vh - 100px);
+        /* min-height: 100% !important;
+        height: 100% !important; */
+    }
+
+
+
+}
+
+@media (max-width: 1440px) {
+    .login-inputs {
+        padding-top: 0px;
+    }
+
+    .googleLoginButton {
+        margin: 0px 0px;
+    }
+
+    .login-inputs form button {
+        margin-top: 0px
+    }
+
+    .login-inputs form {
+        padding: 0px 30px 0px 30px;
+    }
+
+    .login-inputs form input {
+        height: 37px;
+    }
+
+    .login-inputs form button {
+        height: 37px
+    }
+
+    .forget {
+        margin: 15px
+    }
+
+    .login-inputs {
+        max-width: 370px
+    }
+
+    .LoginBtns {
+        margin-top: 20px !important;
+    }
+
+    /* .login-inputs h1 {margin: 5px} */
+
+}
+
+@media (max-width: 500px) {
+    .login-inputs {
+        width: 80%;
+        padding-top: 0px;
+    }
+
+    .continuePara {
+        width: 163px;
+
+        font-size: 16px;
+    }
+
+    .login-container {
+        /* background-image: url('/public/6.jpeg'); */
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        min-height: 567px;
+        position: relative;
+    }
+
+    .googleLoginButton {
+        margin: 0px;
+    }
+
+    .login-inputs form {
+        padding: 0px 30px
+    }
+
+    .login-inputs form button {
+
+        margin-top: 13px;
+
+    }
+
+    .forget {
+        margin: 15px 20px 20px 20px;
+    }
+}
